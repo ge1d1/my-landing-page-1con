@@ -1,0 +1,144 @@
+* {
+	font-family: 'Arial' , Helvetica , sans-serif;
+	color: white;
+}
+.section1 {
+	max-width: 100%;
+	max-height: 115px;
+}
+.pull-left {
+	float: left;
+}
+.pull-right {
+	float: right;
+}
+.img1 {
+	opacity: .475;
+	padding-bottom: 5px;
+}
+.section3 {
+	background: #06c8a5;
+	max-width: 100%;
+	padding: 25px 15px 25px 15px;
+}
+.section2,
+.section4 {
+	background: #fec00d;
+	max-width: 100%;
+	padding: 25px 0 25px 0;
+}
+h2 {
+	padding-bottom: 25px;
+}
+h3 {
+	color: black;
+	padding-top: 30px;
+}
+footer {
+	max-width: 100%;
+	max-height: 20px;
+}
+.list-inline {
+	display: inline-block;
+	margin: 0 auto;
+}
+/*Image & button positioning-----------------*/
+.in-center {
+	margin:0 auto;
+	display: block;
+}
+/*HR lining-------------------------*/
+.one {
+	margin-top: 2px;
+    margin-bottom: 2px;
+    border: 0;
+    border-top: 1px solid #eee;
+    border-bottom: 0 solid #06cba5;
+}
+.two {
+	margin-top: 2px;
+    margin-bottom: 2px;
+    border: 0;
+    border-top: #06cba5;
+    border-bottom: #fec00d;
+}
+.three {
+	margin-top: 2px;
+    margin-bottom: 2px;
+    border: 0;
+    border-top: #06cba5;
+    border-bottom: #eee;
+}
+.four {
+	margin-top: 2px;
+    margin-bottom: 2px;
+    border: 0;
+    border-top: 1px solid #06cba5;
+    border-bottom: 0 solid #eee;
+}
+/*Buttons----------------------------------------------------*/
+.btn-lg {
+	padding: 4% 30%;
+}
+.btn.default {
+	border-color: #333;
+}
+
+.btn-facebook {
+	position:relative;
+	margin: 6px;
+	background-color: #3b5998;
+}
+.btn-twitter {
+	position:relative;
+	margin: 6px;
+	background-color: #4099ff;
+}
+.btn-instagram {
+	position:relative;
+	margin: 6px;
+	background-color: #517fa4;
+}
+.btn-social:first-child {
+	position:absolute;
+	left:0;
+	top:0;
+	bottom:0;
+	width:32px;
+	line-height:34px;
+	font-size:1.6em;
+	text-align:center;
+	border-right: 1px solid rgba(0,0,0,0.2)
+}
+
+
+/*Media Query ---------------------------------------------------------------------*/
+@media (min-width: 992px) {
+
+	.btn-lg {
+		padding: 3% 15%;
+	}
+	h3 {
+		padding: 46px 0 0 93px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
