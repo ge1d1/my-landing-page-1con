@@ -2,6 +2,12 @@
 	font-family: 'Arial' , Helvetica , sans-serif;
 	color: white;
 }
+p {
+	margin: 0 0 10px;
+    font-size: 17px;
+    line-height: 1.5em;
+    color: #024035;
+}
 .section1 {
 	max-width: 100%;
 	max-height: 115px;
@@ -15,6 +21,11 @@
 .img1 {
 	opacity: .475;
 	padding-bottom: 5px;
+}
+.img2 {
+	padding-top: 7px;
+	width: 75px;
+	height: 75px;
 }
 .section3 {
 	background: #06c8a5;
@@ -33,6 +44,10 @@ h2 {
 h3 {
 	color: black;
 	padding-top: 30px;
+}
+.text-left{
+	margin-left: -17px;
+	margin-top: 4px;
 }
 footer {
 	max-width: 100%;
@@ -73,7 +88,7 @@ footer {
 	margin-top: 2px;
     margin-bottom: 2px;
     border: 0;
-    border-top: 1px solid #06cba5;
+    border-top: 1px solid #fec00d;
     border-bottom: 0 solid #eee;
 }
 /*Buttons----------------------------------------------------*/
@@ -111,8 +126,44 @@ footer {
 	border-right: 1px solid rgba(0,0,0,0.2)
 }
 
+/*JS Animation-----------------------------------*/
+
+.section4, .h2cat {
+  position: relative;
+  left: -750px;
+}
+
+.section4,.img5 {
+  position: absolute;
+  right: -330px;
+  margin-top: 10px;
+}
+
+
+
 
 /*Media Query ---------------------------------------------------------------------*/
+@media (min-width: 420px) {
+	.text-left {
+	    margin-left: 0px;
+		margin-top: 4px;
+	}
+	.btn-lg {
+	padding: 4% 30%;
+	}
+
+}
+@media (min-width: 720px) {
+	.btn-lg {
+	padding: 4% 25%;
+	}
+	.text-left {
+    margin-left: 32px;
+	margin-top: 1px;
+	}
+
+}
+
 @media (min-width: 992px) {
 
 	.btn-lg {
@@ -120,6 +171,26 @@ footer {
 	}
 	h3 {
 		padding: 46px 0 0 93px;
+	}
+	.img1 {
+		width: 150px;
+		height: 106px;
+	}
+	.img2 {
+	    width: 105px;
+	    height: 92px;
+	}
+	.img3 {
+		width: 268px;
+		height: 270px;
+	}
+	.img4 {
+		width: 268px;
+		height: 270px;
+	}
+	.text-left {
+	    margin-left: -6px;
+		margin-top: 1px;
 	}
 
 }
