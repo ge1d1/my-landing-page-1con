@@ -4,30 +4,17 @@
       var windowScrollTop = $(this).scrollTop();
   });
 
+  // effect - No4
   var thirdAnimation = function() {
-     $('.section4').find('h2cat').delay(1400).animate({
+    $('.blogs').find('p').delay(1400).animate({
+      opacity: 1,
       left: 0
     }, 'slow');
-     $('.section4').find('img5').delay(2000).animate({
+    $('.blogs').find('img').delay(2000).animate({
+      opacity: 1,
       right: 0
     }, 'slow');
- };
-     if (windowScrollTop > 3500) {
-      $('.section4').css();
-      thirdAnimation();
-    }
-     } else if (windowWidth > 300 && windowWidth <= 995) {
-     if (windowScrollTop > 480) {
-      $('.section4').css();
-      thirdAnimation();
-    }
-     if (windowScrollTop > 1600) {
-      $('.section4').css();
-      thirdAnimation();
-    }
-     if (windowScrollTop > 2200) {
-      $('.section4').css();
-      thirdAnimation();
-    }
+
   };
+
 

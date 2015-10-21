@@ -93,7 +93,7 @@ footer {
 }
 /*Buttons----------------------------------------------------*/
 .btn-lg {
-	padding: 4% 30%;
+	padding: 3.75% 30%;
 }
 .btn.default {
 	border-color: #333;
@@ -149,13 +149,13 @@ footer {
 		margin-top: 4px;
 	}
 	.btn-lg {
-	padding: 4% 30%;
+	padding: 4% 31%;
 	}
 
 }
 @media (min-width: 720px) {
 	.btn-lg {
-	padding: 4% 25%;
+	padding: 4.1% 32%;
 	}
 	.text-left {
     margin-left: 32px;
@@ -167,7 +167,7 @@ footer {
 @media (min-width: 992px) {
 
 	.btn-lg {
-		padding: 3% 15%;
+		padding: 3% 25%;
 	}
 	h3 {
 		padding: 46px 0 0 93px;
@@ -189,7 +189,7 @@ footer {
 		height: 270px;
 	}
 	.text-left {
-	    margin-left: -6px;
+	    margin-left: 88px;
 		margin-top: 1px;
 	}
 
