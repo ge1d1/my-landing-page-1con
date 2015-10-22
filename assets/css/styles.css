@@ -4,8 +4,8 @@
 }
 p {
 	margin: 0 0 10px;
-    font-size: 17px;
-    line-height: 1.5em;
+    font-size: 14px;
+  	line-height: 22px;
     color: #024035;
 }
 .section1 {
@@ -37,6 +37,9 @@ p {
 	background: #fec00d;
 	max-width: 100%;
 	padding: 25px 0 25px 0;
+}
+.section4, .h2cat {
+	border:2px solid black;
 }
 h2 {
 	padding-bottom: 25px;
@@ -95,10 +98,16 @@ footer {
 .btn-lg {
 	padding: 3.75% 30%;
 }
-.btn.default {
-	border-color: #333;
+.btn1 {
+	color: white;
+	border-color: transparent;
+	background-color: #06cba5;
 }
-
+.btn2 {
+	color: white;
+	border-color: transparent;
+	background-color: #fec00d;
+}
 .btn-facebook {
 	position:relative;
 	margin: 6px;
@@ -128,19 +137,31 @@ footer {
 
 /*JS Animation-----------------------------------*/
 
-.section4, .h2cat {
-  position: relative;
-  left: -750px;
+.section4 {
+  margin-bottom: 0;
 }
 
-.section4,.img5 {
+.section4, .h2cat {
+  position: relative;
+  opacity: 0;
+  left: -750px;
+}
+.col-xs-12, .col-md-12 {
+  position: relative;
+}
+
+.section4, .img5 {
   position: absolute;
   right: -330px;
   margin-top: 10px;
+  opacity: 0;
 }
 
-
-
+.firstAnimation {
+  opacity: 1;
+  height: 180px;
+  width: 250px;
+}
 
 /*Media Query ---------------------------------------------------------------------*/
 @media (min-width: 420px) {
@@ -149,17 +170,17 @@ footer {
 		margin-top: 4px;
 	}
 	.btn-lg {
-	padding: 4% 31%;
+		padding: 4% 31%;
 	}
 
 }
 @media (min-width: 720px) {
 	.btn-lg {
-	padding: 4.1% 32%;
+		padding: 4.1% 32%;
 	}
 	.text-left {
-    margin-left: 32px;
-	margin-top: 1px;
+    	margin-left: 32px;
+		margin-top: 1px;
 	}
 
 }
@@ -172,6 +193,26 @@ footer {
 	h3 {
 		padding: 46px 0 0 93px;
 	}
+	
+	p {
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.btn1 {
+		visibility: hidden;
+	}
+
+	.signup {
+		width: 350px;
+		height: 350px;
+		margin-bottom: 95px;
+	}
+
+	.text-center {
+		margin-bottom: -15px;
+	}
+
 	.img1 {
 		width: 150px;
 		height: 106px;

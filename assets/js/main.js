@@ -6,11 +6,11 @@
 
   // effect - No4
   var thirdAnimation = function() {
-    $('.blogs').find('p').delay(1400).animate({
+    $('.section4').find('h2cat').delay(1400).animate({
       opacity: 1,
       left: 0
     }, 'slow');
-    $('.blogs').find('img').delay(2000).animate({
+    $('.section4').find('img5').delay(2000).animate({
       opacity: 1,
       right: 0
     }, 'slow');
